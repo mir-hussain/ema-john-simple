@@ -3,7 +3,26 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 .product-container {
     display: flex;
+    border-bottom: 1px solid #ddd;
+    padding: 20px;
 }
+
+.product-image-container {
+    padding: 20px;
+    border-right: 3px dotted #ddd;
+}
+
+.product-info {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+#price {
+    color: darkorange;
+}
+

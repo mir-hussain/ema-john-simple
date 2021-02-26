@@ -9,8 +9,9 @@
 
 .products-container {
     width: 75%;
-    height: 100vh;
+    height: 100%;
     border-right: 1px solid #ddd ;
+    border-left: 1px solid #ddd ;
     margin-left: 20px ;
 }
 
