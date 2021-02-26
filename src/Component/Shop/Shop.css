@@ -19,3 +19,24 @@
     width: 25%;
     margin-left: 10px;
 }
+
+@media only screen and (max-width: 415px) {
+    .shop-container {
+        flex-direction: column-reverse;
+    }
+
+    .products-container {
+        width: 100%;
+        height: 100%;
+        border: none;
+        margin: 0;
+    }
+
+    .cart-container {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        padding: 10px 0;
+        border: 2px solid black;
+    }
+}
